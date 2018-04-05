@@ -9,21 +9,22 @@ my_vector <- c(my_num, initials)
 vector_sum <- sum(my_vector)
 
 # Describe why this doesn't work: 
-# 
+# my_num and initials aren't same type
 
 install.packages("stringr")
+library(stringr)
 
 my_line <- "Hey, hey, this is the library"
 
 print(str_length(my_line))
 
 # Describe why this doesn't work: 
-# 
+# Didn't call the library.
 
 said_the_famous <- paste(my_line, " - ", initial)
 
 # Describe why this doesn't work: 
-# 
+# The variable is initials, not initial
 
 
 ## Part 2 - Vector and function practice
